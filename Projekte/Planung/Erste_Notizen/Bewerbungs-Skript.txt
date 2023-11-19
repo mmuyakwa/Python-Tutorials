@@ -1,0 +1,48 @@
+Skript um Bewerbungsmappe als PDF zu generieren und zu versenden.
+
+
+Bildsatei mit der Unterschrift
+
+#####
+
+
+Textdatei mit Adressen
+
+Firmenname; Ansprechpartner; Straße; PLZ; Ort; Anrede; Bezeichnung der Stelle
+Firma XY GmbH; Max Mustermann; Musterstraße 1; 12345 Musterstadt; Herr Mustermann; Bewerbung als Fachinformatiker Anwendungsentwicklung
+Firma XZ;; Musterstraße 2; 12345 Musterstadt;; Bewerbung als Fachinformatiker Anwendungsentwicklung 01
+
+
+
+Datei mit dem Brieftext 
+
+Betreff: Bewerbung als <Stellenbezeichnung>
+
+Sehr geehrte(r) Frau/Herr <Anrede>,
+
+hiermit bewerbe ich mich auf die Stelle <Stellenbezeichnung> in Ihrem Unternehmen.
+
+Bla Bla Bla
+
+
+Mit freundlichen Grüßen
+
+<Unterschrift>
+
+
+
+Anhänge
+
+Lebenslauf
+Zeugnisse
+Zertifikate
+Arbeitsproben
+Arbeitszeugnisse
+Sonstiges
+
+
+
+Zieht sich eine Zeile aus den Adressen.
+Baut den Brieftext zusammen. (inkl. Betreff und Anrede)
+Danach erzeugt er eine PDF-Datei aus dem Brief und hängt die Anhänge an.
+(Ggf. Emailversand)
