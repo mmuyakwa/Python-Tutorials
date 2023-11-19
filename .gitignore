@@ -1,5 +1,6 @@
 installers/mariadb-installieren.txt
 .travis.yml
+.DS_Store
 
 # ignore 
 Todos/
