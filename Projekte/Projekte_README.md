@@ -17,4 +17,4 @@ Im Unterordner
 
 ### Gedankenstütze
 
-- [ ] Projekt um bewerbungen zu tracken in PHP
+- [ ] Projekt um Bewerbungen zu tracken in PHP
