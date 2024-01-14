@@ -1,3 +1,6 @@
+-- Selektiere Datenbank
+use musiksammlung;
+
 -- Einfügen von Datensätzen in Tabelle "Kuenstler"
 
 INSERT INTO Kuenstler
